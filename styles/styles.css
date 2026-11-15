@@ -17,55 +17,55 @@ main {
 }
 
 .outer-table {
-    width:100%;
-    border-collapse: collapse;
-    background-color: #98a3a7;
-    box-shadow: 0 2px 8px; rgba(0, 0, 0, 0.1);  
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #98a3a7;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .outer-table > caption {
-    font-weight: bold;
-    text-align: center;
-    font-size: 1.4rem;
-    padding: 12px;
-    background-color: #17d356;
-    color: #fff;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.4rem;
+  padding: 12px;
+  background-color: #17d356;
+  color: #fff;
 }
 
 .outer-cell {
-    border: 1px solid #0a0000;
-    padding: 15px;
-    vertical-align: top;
-    width: 50%;
+  border: 1px solid #0a0000;
+  padding: 15px;
+  vertical-align: top;
+  width: 50%;
 }
 
 .outer-cell table {
-        border-collapse: collapse;
-        width: 100%;
-        background-color: #fff;
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #fff;
 }
 
 .outer-cell caption {
-    font-weight:bold;
-    text-align: center;
-    font-size: 1.1rem;
-    padding: 8px;
-    background-color: #175bed;
-    color: #fff;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.1rem;
+  padding: 8px;
+  background-color: #175bed;
+  color: #fff;
 }
 
 .outer-cell td,
 .outer-cell th {
-    border: 1px solid #ddd;
-    padding: 6px 4px;
-    text-align: center;
-    width: 12.5%;
+  border: 1px solid #ddd;
+  padding: 6px 4px;
+  text-align: center;
+  width: 12.5%;
 }
 
 .outer-cell th:first-child,
 .outer-cell td:first-child {
-    background-color: #fef08a;
-    font-weight: bold;
+  background-color: #fef08a;
+  font-weight: bold;
 }
 
 .weekend {
